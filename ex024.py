@@ -47,7 +47,7 @@
 #print(frase.lower().find('video')) #desse jeito ele transforma tudo em minusculo e depois efetua a busca da string
 
 
-#crie um programa que leia o nome de uma cidade e sinalize caso ela tenha 'santo no nome'
+#crie um programa que leia o nome de uma cidade e sinalize caso ela tenha 'santos no nome'
 
 cidade=str(input('Digite o nome da cidade em que voce nasceu: ')).strip()
-print(cidade[:5].upper()=='SANTO')
+print(cidade[:5].upper()=='SANTOS')

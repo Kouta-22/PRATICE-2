@@ -49,5 +49,7 @@
 
 #crie um programa que leia o nome de uma cidade e sinalize caso ela tenha 'santos no nome'
 
-cidade=str(input('Digite o nome da cidade em que voce nasceu: ')).strip()
-print(cidade[:5].upper()=='SANTOS')
+cidade=str(input('Digite o nome da cidade e o estado em que voce nasceu: ')).strip()
+ultimo_char = cidade[-2:]
+resultado = ultimo_char.upper() == 'BA'
+print(resultado)

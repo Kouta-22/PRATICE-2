@@ -52,8 +52,5 @@
 
 
 nome=str(input('Qual seu nome:? '))
-print(f'\nO seu nome tem silva?: {"SILVA" in nome.upper().split()} \nE o silva se começa na casa: {nome.find("SILVA")}') 
-#obs o .find busca em qual casa começa caso não encontre retorna -1 
-#obs não consegui formatar o .find para buscar silva escrito de outra forma
-
+print(f'O seu nome tem Silva?:\n{"SILVA" in nome.upper().split()}')
 

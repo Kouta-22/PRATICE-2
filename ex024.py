@@ -50,4 +50,4 @@
 #crie um programa que leia o nome de uma cidade e sinalize caso ela tenha 'santo no nome'
 
 cidade=str(input('Digite o nome da cidade em que voce nasceu: ')).strip()
-print(cidade[0:5].upper()=='SANTO')
+print(cidade[:5].upper()=='SANTO')
